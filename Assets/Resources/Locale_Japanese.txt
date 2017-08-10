@@ -1,0 +1,5 @@
+﻿{
+	"MAINMENU_BUTTON_1":"こんにちは！",
+	"MAINMENU_TITLE":"あいさつ！",
+	"MAINMENU_BUTTON_LANGUAGE":"日本語"
+}
