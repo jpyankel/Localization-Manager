@@ -1,3 +1,6 @@
+# Changes from initial fork
+  After downloading, I noticed this example project is just straight up broken. I intend to fix it.
+  
 # Localization-Manager
 JSON localization string manager for Unity3D
 
