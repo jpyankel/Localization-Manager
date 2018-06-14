@@ -18,7 +18,7 @@ public class LocaleText : MonoBehaviour {
     private void Awake () {
         // Cache references:
         textComponent = GetComponent<Text>();
-        localeManager = GameObject.FindWithTag("GameController").GetComponent<LocalizationManager>();
+        localeManager = GameObject.FindWithTag("Localization Manager").GetComponent<LocalizationManager>();
         // Bind event if we autoUpdate:
         if (autoUpdate == true) {
             localeManager.languageChanged += updateLocale;
