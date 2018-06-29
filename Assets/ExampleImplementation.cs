@@ -15,7 +15,7 @@ public class ExampleImplementation : MonoBehaviour {
 
 	public void onLanguageButtonPressed () {
         index++;
-        if (index == languages.Count) { //and here I've been using .Length this whole time, like some sort of monster
+        if (index == languages.Count) {
             index = 0;
         }
         localeManager.setLocalization(languages[index]);
