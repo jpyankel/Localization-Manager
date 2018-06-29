@@ -1,8 +1,11 @@
+# Changes from initial fork
+  After downloading, I noticed this example project is just straight up broken. I intend to fix it.
+  
 # Localization-Manager
-JSON localization string manager for Unity3D
+JSON localization string manager for Unity3D, version 5.0
 
 ## The Demo
-Open ExampleScene. You will see a scene with two buttons (with text) and a title text. Upon starting up the scene, all text changes to display the current language. This language can be switched by pressing the language button to the right.
+Open ExampleScene. You will see a scene with two buttons (with text) and a title text. Upon starting up the scene, all text changes to display the current language. This language can be switched by pressing the language button, marked "Greetings".
 
 ## How to Use
 Simply copy/paste or drag/drop LocalizationManager.cs into your project. This script should ideally be attached to a game controller or manager type of object (or at least something that will persist through scenes).
