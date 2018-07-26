@@ -20,11 +20,10 @@ public class LocalizationManager : MonoBehaviour {
     public delegate void LanguageChangedEventHandler();
     public event LanguageChangedEventHandler languageChanged;
 
-    private void Start () {
+    private void Awake () {
         // Load user preferences, if any:
         if (PlayerPrefs.HasKey("LAST_LANGUAGE")) {
             string newLang = PlayerPrefs.GetString("LAST_LANGUAGE");
-            print(newLang);
             try {
                 setLocalization(newLang);
             }

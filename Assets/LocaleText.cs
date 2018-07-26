@@ -25,9 +25,15 @@ public class LocaleText : MonoBehaviour {
         }
     }
 
+    private void Start () {
+        // Ensure that when this object is activated the correct language is displayed:
+        updateLocale();
+    }
+
     /// <summary>
     /// Attempts to fetch the associated string resource from the LocalizationManager.
     /// Will update the sibling Text component's text attribute if successful.
+    /// Note that this will be called even if this object is disabled - if autoUpdate is enabled.
     /// </summary>
     public void updateLocale () {
         try {
